@@ -50,3 +50,16 @@ recurring basis, e.g. from Google Analytics, to get the daily page views / visit
 
 Eventually these services should become hapi plugins by themselves, but to keep
 things simple, I’ll start by putting them into the repository.
+
+## WIP
+
+1. Bootstrap events for added issues, pull requests and comments for an organization.
+   - [CommitCommentEvent](https://developer.github.com/v3/activity/events/types/#commitcommentevent)
+   - [IssueEvent](https://developer.github.com/v3/activity/events/types/#issueevent)
+   - [IssueCommentEvent](https://developer.github.com/v3/activity/events/types/#issuecommentevent)
+   - [PullRequestEvent](https://developer.github.com/v3/activity/events/types/#pullrequestevent)
+   - [PullRequestReviewCommentEvent](https://developer.github.com/v3/activity/events/types/#pullrequestreviewcommentevent)
+1. Bootstrap events members added to repos / teams
+   - [MemberEvent](https://developer.github.com/v3/activity/events/types/#memberevent)
+   - [MembershipEvent](https://developer.github.com/v3/activity/events/types/#membershipevent)
+1. Bootstrap repo star events
