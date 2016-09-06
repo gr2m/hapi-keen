@@ -1,0 +1,30 @@
+{
+  "name": "hapi-keen",
+  "version": "1.0.0",
+  "description": "> hapi server/plugin to proxy hooks to keen.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gr2m/hapi-keen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gr2m/hapi-keen/issues"
+  },
+  "homepage": "https://github.com/gr2m/hapi-keen#readme",
+  "dependencies": {
+    "github": "^2.6.0",
+    "hapi": "^15.0.3",
+    "keen-tracking": "^1.0.3",
+    "moment": "^2.14.1"
+  },
+  "devDependencies": {
+    "mkdirp": "^0.5.1",
+    "tap": "^7.0.0"
+  }
+}
