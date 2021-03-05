@@ -6,17 +6,10 @@
   "scripts": {
     "test": "tap test/*"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gr2m/hapi-keen.git"
-  },
+  "repository": "github:gr2m/hapi-keen",
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gr2m/hapi-keen/issues"
-  },
-  "homepage": "https://github.com/gr2m/hapi-keen#readme",
   "dependencies": {
     "github": "^2.6.0",
     "hapi": "^15.0.3",
